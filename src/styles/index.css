@@ -1,0 +1,5 @@
+/* frontend/src/styles/index.css */
+*{box-sizing:border-box} 
+body{font-family:system-ui,Arial;margin:0;background:#fafafa;color:#222}
+button{padding:8px 12px;border:1px solid #ccc;background:#fff;cursor:pointer} 
+input,select,textarea{padding:8px;border:1px solid #ccc}
