@@ -53,21 +53,24 @@ Facultique is a role-based web portal designed for **Heads of Departments (HODs)
 - **Design & Testing Tools:** Figma, Postman  
 
 ## 📅 Proposed Timeline
-Weeks	Milestone
-1–2	Requirement analysis, UI mockups
-3–5	Backend setup (Spring Boot + PostgreSQL)
-6–8	Frontend integration (ReactJS)
-9	Task assignment & portfolio modules
-10–11	Testing & debugging
-12	Documentation & deployment
+
+| Weeks   | Milestone                                |
+|---------|------------------------------------------|
+| 1–2     | Requirement analysis, UI mockups         |
+| 3–5     | Backend setup (Spring Boot + PostgreSQL) |
+| 6–8     | Frontend integration (ReactJS)           |
+| 9       | Task assignment & portfolio modules      |
+| 10–11   | Testing & debugging                      |
+| 12      | Documentation & deployment               |
+
 
 ## 👥 Team Contributions
 
-Saadat Hasin Fattah – ReactJS setup, UI design, testing
+- **Saadat Hasin Fattah** – ReactJS setup, UI design, testing
 
-Samin Abdullah Rafi – Backend logic, PostgreSQL integration, testing
+- **Samin Abdullah Rafi** – Backend logic, PostgreSQL integration, testing
 
-KH Abu Talib Sifat – Portfolio system, report generation, testing
+- **KH Abu Talib Sifat** – Portfolio system, report generation, testing
 
 ## ⚡ Challenges & Solutions
 
