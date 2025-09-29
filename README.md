@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+Facultique: A Centralized Faculty Task & Portfolio Portal
 
-## Project info
 
-**URL**: https://lovable.dev/projects/81283121-4e13-4c8b-94a8-a727e567a95a
+🚀 Overview
 
-## How can I edit this code?
+Facultique is a role-based web portal designed for Heads of Departments (HODs) and Faculty Members.
+It centralizes task assignment, tracking, approval, and portfolio management, reducing dependency on fragmented manual methods such as emails or Google Forms.
 
-There are several ways of editing your application.
+This system ensures real-time visibility, accountability, and structured workflows, contributing to a more sustainable and efficient academic environment.
 
-**Use Lovable**
+🎯 Features
+👤 Role-Based Access
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/81283121-4e13-4c8b-94a8-a727e567a95a) and start prompting.
+HOD
 
-Changes made via Lovable will be committed automatically to this repo.
+Assign tasks to faculty
 
-**Use your preferred IDE**
+Review submitted work
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Approve or decline tasks
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+View faculty portfolios
 
-Follow these steps:
+Faculty
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+View assigned tasks
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Update task status (Pending, Finished)
 
-# Step 3: Install the necessary dependencies.
-npm i
+Submit tasks to HOD
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Update personal portfolio (achievements, publications, awards)
 
-**Edit a file directly in GitHub**
+📊 Additional Features
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Portfolio builder for faculty
 
-**Use GitHub Codespaces**
+Task status tracking with notifications
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Graphical representations of task progress
 
-## What technologies are used for this project?
+📅 Future Enhancements
 
-This project is built with:
+Calendar integration for deadlines
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Advanced analytics and reporting
 
-## How can I deploy this project?
+Mobile interface optimization
 
-Simply open [Lovable](https://lovable.dev/projects/81283121-4e13-4c8b-94a8-a727e567a95a) and click on Share -> Publish.
+Chat room for faculty–HOD communication
 
-## Can I connect a custom domain to my Lovable project?
+Integration with ICT legacy systems
 
-Yes, you can!
+🛠️ Tech Stack
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Frontend: ReactJS
+Backend: Spring Boot
+Database: PostgreSQL
+API: REST API
+Version Control: GitHub
+Design & Testing Tools: Figma, Postman
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📌 System Workflow
+flowchart TD
+    A[HOD Assigns Task] --> B[Faculty Views Task]
+    B --> C[Task Status: Pending]
+    C --> D[Faculty Submits Task]
+    D -->|Approved| E[Status: Successfully Submitted]
+    D -->|Declined| F[Status: Pending + Feedback]
+
+📐 UML Class Diagram
+
+📅 Proposed Timeline
+Weeks	Milestone
+1–2	Requirement analysis, UI mockups
+3–5	Backend setup (Spring Boot + PostgreSQL)
+6–8	Frontend integration (ReactJS)
+9	Task assignment & portfolio modules
+10–11	Testing & debugging
+12	Documentation & deployment
+👥 Team Contributions
+
+Saadat Hasin Fattah – ReactJS setup, UI design, testing
+
+Samin Abdullah Rafi – Backend logic, PostgreSQL integration, testing
+
+KH Abu Talib Sifat – Portfolio system, report generation, testing
+
+⚡ Challenges & Solutions
+
+Real-time Task Updates → Solved using async REST API calls
+
+Secure Role-Based Access → Implemented JWT authentication
+
+Frontend–Backend Sync Issues → Fixed with GitHub version control + Postman testing
+
+📖 Lessons Learned
+
+Importance of seamless frontend–backend integration
+
+Agile teamwork with clear task division improves efficiency
+
+Testing and version control are crucial for reliable progress
+
+## 🔗 Project Repository  
+
+GitHub Repository: [Facultique Portal](https://github.com/demo/facultique)  
+*(Replace with your actual repo link)*  
+
+---
+
+## 📜 License  
+This project is licensed under the [MIT License](./LICENSE).  
+See the LICENSE file for more details. 
