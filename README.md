@@ -91,7 +91,6 @@ Testing and version control are crucial for reliable progress
 ## 🔗 Project Repository  
 
 GitHub Repository: [Faculty Portal](https://github.com/voidsamin/Facultique.git)  
-*(Replace with your actual repo link)*  
 
 ---
 
