@@ -53,17 +53,13 @@ Facultique is a role-based web portal designed for **Heads of Departments (HODs)
 - **Design & Testing Tools:** Figma, Postman  
 
 ---
-
 ## 📌 System Workflow  
-
-```mermaid
 flowchart TD
     A[HOD Assigns Task] --> B[Faculty Views Task]
     B --> C[Task Status: Pending]
     C --> D[Faculty Submits Task]
     D -->|Approved| E[Status: Successfully Submitted]
     D -->|Declined| F[Status: Pending + Feedback]
-
 
 ## 📅 Proposed Timeline
 Weeks	Milestone
@@ -73,6 +69,7 @@ Weeks	Milestone
 9	Task assignment & portfolio modules
 10–11	Testing & debugging
 12	Documentation & deployment
+
 ## 👥 Team Contributions
 
 Saadat Hasin Fattah – ReactJS setup, UI design, testing
