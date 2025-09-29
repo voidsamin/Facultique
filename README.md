@@ -1,72 +1,69 @@
-Facultique: A Centralized Faculty Task & Portfolio Portal
+# Facultique: A Centralized Faculty Task & Portfolio Portal  
 
+## 🚀 Overview  
+Facultique is a role-based web portal designed for **Heads of Departments (HODs)** and **Faculty Members**.  
 
-## 🚀 Overview
+- Centralizes **task assignment, tracking, and approval**  
+- Maintains **faculty portfolios** with achievements and records  
+- Replaces fragmented manual methods (emails, Google Forms, sticky notes)  
+- Ensures **real-time visibility, accountability, and structured workflows**  
+- Contributes to a **sustainable and efficient academic environment**  
 
-Facultique is a role-based web portal designed for Heads of Departments (HODs) and Faculty Members.
-It centralizes task assignment, tracking, approval, and portfolio management, reducing dependency on fragmented manual methods such as emails or Google Forms.
+---
 
-This system ensures real-time visibility, accountability, and structured workflows, contributing to a more sustainable and efficient academic environment.
+## 🎯 Features  
 
-## 🎯 Features
-👤 Role-Based Access
+### 👤 Role-Based Access  
+**HOD**  
+- Assign tasks to faculty  
+- Review submitted work  
+- Approve or decline tasks with feedback  
+- View faculty portfolios  
 
-HOD
+**Faculty Members**  
+- View assigned tasks  
+- Update task status (**Pending**, **Finished**)  
+- Submit tasks to HOD  
+- Update personal portfolio (achievements, publications, awards)  
 
-Assign tasks to faculty
+---
 
-Review submitted work
+### 📊 Additional Features  
+- Portfolio builder for faculty  
+- Task status tracking with notifications  
+- Graphical representations of task progress  
 
-Approve or decline tasks
+---
 
-View faculty portfolios
+### 🔮 Future Enhancements  
+- 📅 Calendar integration for deadlines  
+- 📊 Advanced analytics and reporting dashboards  
+- 📱 Mobile interface optimization  
+- 💬 Chat room for faculty–HOD communication  
+- 🔗 Integration with ICT legacy systems  
 
-Faculty
+---
 
-View assigned tasks
+## 🛠️ Tech Stack  
+- **Frontend:** ReactJS  
+- **Backend:** Spring Boot  
+- **Database:** PostgreSQL  
+- **API:** REST API  
+- **Version Control:** GitHub  
+- **Design & Testing Tools:** Figma, Postman  
 
-Update task status (Pending, Finished)
+---
 
-Submit tasks to HOD
+## 📌 System Workflow  
 
-Update personal portfolio (achievements, publications, awards)
-
-## 📊 Additional Features
-
-Portfolio builder for faculty
-
-Task status tracking with notifications
-
-Graphical representations of task progress
-
-## 📅 Future Enhancements
-
-Calendar integration for deadlines
-
-Advanced analytics and reporting
-
-Mobile interface optimization
-
-Chat room for faculty–HOD communication
-
-Integration with ICT legacy systems
-
-## 🛠️ Tech Stack
-
-Frontend: ReactJS
-Backend: Spring Boot
-Database: PostgreSQL
-API: REST API
-Version Control: GitHub
-Design & Testing Tools: Figma, Postman
-
-## 📌 System Workflow
+```mermaid
 flowchart TD
     A[HOD Assigns Task] --> B[Faculty Views Task]
     B --> C[Task Status: Pending]
     C --> D[Faculty Submits Task]
     D -->|Approved| E[Status: Successfully Submitted]
     D -->|Declined| F[Status: Pending + Feedback]
+
 
 ## 📅 Proposed Timeline
 Weeks	Milestone
