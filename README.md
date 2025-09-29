@@ -54,12 +54,24 @@ Facultique is a role-based web portal designed for **Heads of Departments (HODs)
 
 ---
 ## 📌 System Workflow  
-flowchart TD
-    A[HOD Assigns Task] --> B[Faculty Views Task]
-    B --> C[Task Status: Pending]
-    C --> D[Faculty Submits Task]
-    D -->|Approved| E[Status: Successfully Submitted]
-    D -->|Declined| F[Status: Pending + Feedback]
+
+## 📌 System Workflow  
+
+HOD Assigns Task
+        │
+        ▼
+Faculty Views Task
+        │
+        ▼
+Task Status: Pending
+        │
+        ▼
+Faculty Submits Task
+   ┌───────────────┴───────────────┐
+   ▼                               ▼
+HOD Approves                 HOD Declines
+(Status: Submitted)      (Status: Pending + Feedback)
+
 
 ## 📅 Proposed Timeline
 Weeks	Milestone
